@@ -1,0 +1,173 @@
+/*
+
+Theme Name: Uncode Child
+
+Description: Child theme for Uncode theme
+
+Author: Undsgn™
+
+Author URI: http://www.undsgn.com
+
+Template: uncode
+
+Version: 1.0.0
+
+Text Domain: uncode
+
+*/
+
+.heading-text.el-text.heading-bigtext {
+	margin-left: 50px;
+	text-align: right;
+}
+.heading-text.el-text {
+	margin-left: 50px;
+	text-align: right;
+}
+#bigtext-id0 .bigtext-line0 {
+	font-size: 103px! important;
+	text-align: center! important;
+}
+.backgroundcolor {
+	text-align: center! important;
+}
+#bigtext-id1.font-202503.bigtext.fontheight-179065.fontspace-111509.font-weight-700 {
+	margin-left: -210px;
+	padding-right: 150px;
+}
+.bigtext-line0 {
+	font-size: 277.9px;
+	word-spacing: 0.9px;
+	letter-spacing: -0.05em;
+	line-height: 1;
+	font-family: Poppins !important;
+	font-weight: 700 !important;
+}
+.latestwork {
+	font-size: 70.9px! important;
+	line-height: 1;
+	font-family: Poppins !important;
+	font-weight: 700 !important;
+	color: #303133;
+	text-align: center! important;
+}
+.style-color-482803-bg {
+	background-color: #fff! important;
+} 
+.fa {
+	color: #303133;
+}
+.fa-social-facebook:before, .fa-instagram:before, 
+.fa-social-pinterest:before, .fa-tumblr:before {
+	font-size: 48px! important;
+}
+.row-menu {
+	background-color: #303133! important;
+}
+.row.double-top-padding.double-bottom-padding.single-h-padding.limit-width.row-parent {
+	display: none;
+}
+.footer-scroll-top i {
+	border-radius: 20px;
+}
+.fa-angle-up:before {
+	color: #303133;
+	font-size: 50px;
+}
+.style-light .btn-default {
+	border-color: transparent;
+	background-color: transparent;
+	border: 0px;
+}
+.menu-light .menu-smart a, .style-light .navbar-brand .logo-skinnable {
+	color: #fff;
+}
+.gform_wrapper form {
+	text-align: center! important;
+}
+h3.gform_title {
+	display:none;
+}
+.style-light input[type="submit"] {
+	background-color: transparent! important;
+}
+.gform_wrapper_1, input, textarea {
+	text-align: center;
+}
+footer .footer-center {
+	padding-top: 8px;
+	padding-bottom: 28px;
+	border-bottom: 10px solid #303133;
+}
+.style-color-xsdn-bg.row-container.boomapps_vcrow {
+	border: 10px solid #303133;
+}
+.style-light input, .style-light textarea {
+	border: 3px solid #303133;
+}
+.centerfield {
+	text-align: center! important;
+}
+.gform_wrapper input[type=text], .gform_wrapper textarea {
+	font-size: 20.9px! important;
+	font-family: Poppins !important;
+	color: #000! important;
+	letter-spacing: 1.05px;
+}
+.gform_wrapper textarea {
+	padding: .5em .925em! important;
+}
+.menu-primary.menu-borders, .menu-primary .menu-borders {
+	border-bottom-width: 0px! important;
+	border-color: #000;
+}
+.gform_wrapper .top_label input.medium {
+	width: 35%! important;
+}
+.mobile-menu-button-light .lines {
+	color: #fff! important;
+}
+.menu-container ul.menu-smart > li > a:hover {
+	color: #fff;
+}
+.mobile-menu-button-light .lines {
+	background: #fff;
+}
+
+.movehead {
+	padding-left: 40px;
+	padding-top: 40px;
+}
+
+.imagepad { 
+	margin-top: -10px! important;
+}
+
+.style-light a:not(.btn-text-skin):hover {
+	cursor: ne-resize! important;
+}
+
+/*  media queries */
+
+@media only screen and (max-width: 736px) {
+	div.heading-text.el-text {
+		text-align: left;
+		margin-left: -20px;
+	}
+	.bigtext-line0 {
+		font-size: 207.9px;
+	}
+	.movehead {
+		padding-left: 0px;
+		padding-top: 0px;
+}
+	#bigtext-id0 .bigtext-line0 {
+		margin-left: -50px;
+	}
+}
+ @media only screen and (max-width: 961px) {
+ 		.movehead {
+		padding-left: 0px;
+		padding-top: 0px;
+}
+}
