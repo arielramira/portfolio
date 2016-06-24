@@ -62,7 +62,7 @@ Text Domain: uncode
 	font-size: 48px! important;
 }
 .row-menu {
-	background-color: #303133! important;
+	background-image: url("http://arielramira.com/wp-content/uploads/2016/05/header-img.png")! important;
 }
 .row.double-top-padding.double-bottom-padding.single-h-padding.limit-width.row-parent {
 	display: none;
