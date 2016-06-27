@@ -68,11 +68,8 @@ Text Domain: uncode
 	display: none;
 }
 .footer-scroll-top i {
-	border-radius: 20px;
-}
-.fa-angle-up:before {
-	color: #303133;
-	font-size: 50px;
+	border-radius: 10px;
+	opacity: .1;
 }
 .style-light .btn-default {
 	border-color: transparent;
@@ -98,9 +95,13 @@ footer .footer-center {
 	padding-top: 8px;
 	padding-bottom: 28px;
 	border-bottom: 10px solid #303133;
+	border-top: 10px solid #303133;
 }
 .style-color-xsdn-bg.row-container.boomapps_vcrow {
-	border: 10px solid #303133;
+	border-top: 10px solid #303133! important;
+}
+.style-color-xsdn-bg.row-container.boomapps_vcrow {
+	border: 0px solid #303133;
 }
 .style-light input, .style-light textarea {
 	border: 3px solid #303133;
@@ -164,10 +165,31 @@ footer .footer-center {
 	#bigtext-id0 .bigtext-line0 {
 		margin-left: -50px;
 	}
+	.footerimg {
+	display: none;
+}
 }
  @media only screen and (max-width: 961px) {
  		.movehead {
 		padding-left: 0px;
 		padding-top: 0px;
 }
+}
+.header-wrapper.header-uncode-block::after {
+	height:20px; 
+	width:100%; 
+	background:url("http://arielramira.com/wp-content/uploads/2016/05/header-img.png");
+}
+.footerimg img {
+	width: 85%! important;
+	margin-left: 10px;
+}
+img .footerimg {
+	width: 85%! important;
+	margin-left: 10px;
+}
+.gform_wrapper.gf_browser_chrome input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=file]), 
+.gform_wrapper.gf_browser_chrome textarea, .gform_wrapper.gf_browser_gecko input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=file]), .gform_wrapper.gf_browser_gecko textarea, .gform_wrapper.gf_browser_safari input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=file]), 
+.gform_wrapper.gf_browser_safari textarea {
+	border: 0px solid #ccc! important;
 }
