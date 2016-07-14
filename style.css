@@ -134,16 +134,13 @@ footer .footer-center {
 .mobile-menu-button-light .lines {
 	background: #fff;
 }
-
 .movehead {
 	padding-left: 40px;
 	padding-top: 40px;
 }
-
 .imagepad { 
 	margin-top: -10px! important;
 }
-
 .style-light a:not(.btn-text-skin):hover {
 	cursor: ne-resize! important;
 }
